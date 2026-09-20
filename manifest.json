@@ -217,8 +217,8 @@
     },
     {
       "commit": "7672466c8c78a20a6876cdeb1bbeecd4d6e0c9e3",
-      "parsed_at": "2026-09-20T05:58:45.432040+00:00",
-      "tag": "6.1.0rc3",
+      "parsed_at": "2026-09-20T06:29:20.528998+00:00",
+      "tag": "6.1.0rc2",
       "filetree": "filetree/7672466c8c78a20a6876cdeb1bbeecd4d6e0c9e3.nq.gz",
       "blobs": [
         "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
