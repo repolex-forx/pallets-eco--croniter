@@ -278,8 +278,8 @@
     },
     {
       "commit": "61cc6eb2b2c493c0744af546dbe4d3b6cc4dbdc1",
-      "parsed_at": "2026-09-20T07:06:28.201196+00:00",
-      "tag": "6.1.0rc1",
+      "parsed_at": "2026-09-20T09:07:57.509061+00:00",
+      "tag": "6.0.1rc1",
       "filetree": "filetree/61cc6eb2b2c493c0744af546dbe4d3b6cc4dbdc1.nq.gz",
       "blobs": [
         "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
