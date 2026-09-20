@@ -1,0 +1,15 @@
+[2026-09-20T07:19:45Z] === ENRICH ITERATION 1 START | repo=pallets-eco/croniter sha=61cc6eb2 ===
+[2026-09-20T07:19:45Z] [iter=1] PHASE START: enrich repo=pallets-eco/croniter sha=61cc6eb2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/61cc6eb2-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/61cc6eb2b2c493c0744af546dbe4d3b6cc4dbdc1.nq.gz
+[2026-09-20T07:19:46Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-20T07:19:48Z] [iter=1] AST store loaded triples=233388 load_secs=2 mem_mb=434 MB
+[2026-09-20T07:19:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=434 MB
+[2026-09-20T07:19:49Z] [iter=1] LSP targets found call_sites=2756 imports=0 extends=0 implements=0 secs=1
+[2026-09-20T07:19:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=434 MB
+[2026-09-20T07:19:50Z] [iter=1] Position index built positions=14327 nodes_with_types=19315 secs=1 mem_mb=434 MB
+[2026-09-20T07:19:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=434 MB already_completed_types=[] already_completed_files=0
+[2026-09-20T07:19:50Z] [iter=1] Resolving target type target_type=call_site count=2756
+[2026-09-20T07:21:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=1 resolved=736 errors=560 current=src/croniter/croniter.py
+[2026-09-20T07:21:31Z] [iter=1] Target type resolved target_type=call_site resolved=1219 errors=794 secs=101 mem_mb=434 MB
+[2026-09-20T07:21:33Z] [iter=1] Step 5: Writing final enrichment file triples=16770
+[2026-09-20T07:21:34Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/61cc6eb2b2c493c0744af546dbe4d3b6cc4dbdc1.nq.gz size_kb=252
+[2026-09-20T07:21:34Z] [iter=1] PHASE END: enrich elapsed_s=109 elapsed_min=1.8 total_triples=16770
