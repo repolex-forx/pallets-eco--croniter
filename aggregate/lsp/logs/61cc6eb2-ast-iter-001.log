@@ -1,0 +1,7 @@
+[2026-09-20T07:12:02Z] === AST ITERATION 1 START | repo=pallets-eco/croniter sha=61cc6eb2 ===
+[2026-09-20T07:12:02Z] [iter=1] PHASE START: ast repo=pallets-eco/croniter sha=61cc6eb2
+[2026-09-20T07:12:02Z] [iter=1] Building AST aggregate chunks
+[2026-09-20T07:12:27Z] [iter=1] AST chunks built count=1 triples=233388
+[2026-09-20T07:12:27Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/61cc6eb2b2c493c0744af546dbe4d3b6cc4dbdc1/.complete
+[2026-09-20T07:12:27Z] [iter=1] PHASE END: ast elapsed_s=24 elapsed_min=0.4
+[2026-09-20T07:12:27Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
